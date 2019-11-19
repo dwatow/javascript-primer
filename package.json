@@ -1,0 +1,25 @@
+{
+  "name": "javascript-primer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "docpress s",
+    "build": "docpress b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwatow/javascript-primer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwatow/javascript-primer/issues"
+  },
+  "homepage": "https://github.com/dwatow/javascript-primer#readme",
+  "devDependencies": {
+    "docpress": "0.8.0"
+  }
+}
