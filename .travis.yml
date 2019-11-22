@@ -10,7 +10,7 @@ env:
 
 script:
 - npm install     # ...or whatever your test command is
-- ./node_modules/.bin/docpress build
+- npm run build
 
 after_success:
 - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then ./node_modules/.bin/git-update-ghpages -e; fi
