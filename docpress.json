@@ -1,4 +1,41 @@
 {
   "docs": "docs",
-  "github": "dwatow/javascript-primer"
+  "github": "dwatow/javascript-primer",
+  "lang": "zh-tw",
+  "markdown": {
+    "plugins": [
+      "abbr",
+      {
+        "name": "container",
+        "options": "success"
+      },
+      {
+        "name": "container",
+        "options": "info"
+      },
+      {
+        "name": "container",
+        "options": "warning"
+      },
+      {
+        "name": "container",
+        "options": "danger"
+      },
+      {
+        "name": "emoji",
+        "options": {
+          "shortcuts": {}
+        }
+      },
+      "deflist",
+      "footnote",
+      "imsize",
+      "ins",
+      "mark",
+      "regexp",
+      "sub",
+      "sup",
+      "checkbox"
+    ]
+  }
 }
