@@ -9,7 +9,7 @@ env:
     - GIT_SOURCE: _docpress
 
 script:
-- rake     # ...or whatever your test command is
+- npm install     # ...or whatever your test command is
 - ./node_modules/.bin/docpress build
 
 after_success:
