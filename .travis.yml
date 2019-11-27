@@ -9,6 +9,7 @@ env:
     - GIT_SOURCE: _docpress
 
 script:
+- rm -rf node_modules     # ...or whatever your test command is
 - npm install     # ...or whatever your test command is
 - npm audit fix
 - npm run build
