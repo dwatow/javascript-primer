@@ -35,5 +35,7 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "docpress-core": "git+https://github.com/dwatow/docpress-core.git"
+  }
 }
