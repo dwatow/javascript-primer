@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/style.css?t=90051322">
+    <script src="../assets/script.js?t=93f1a66c"></script>
+    <title>Installation - Your project</title>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="menu toc-menu">
+        <ul>
+          <li class="menu-item -level-0 -parent">
+            <ul class="submenu">
+              <li class="menu-item -level-1"><a class="link title  link-index" href="../index.html">Your project</a>
+              </li>
+              <li class="menu-item -level-1 -parent"><a class="link title  link-intro" href="../intro/index.html">Introduction</a>
+                <ul class="submenu">
+                  <li class="menu-item -level-2"><a class="link title  link-introgetting-started" href="../intro/getting-started.html">Getting started</a>
+                  </li>
+                  <li class="menu-item -level-2"><a class="link title -active link-introinstall" href="../intro/install.html">Installation</a>
+                    <ul class="headings heading-list">
+                      <li class="heading-item -depth-2"><a class="hlink link-markdown-it" href="#markdown-it">擴充 markdown-it 的渲染外掛安裝方式</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item -level-1 -parent"><a class="link title  link-installation" href="../installation/index.html">Installation</a>
+                <ul class="submenu">
+                  <li class="menu-item -level-2"><a class="link title  link-installationosx" href="../installation/osx.html">Mac OS X</a>
+                  </li>
+                  <li class="menu-item -level-2"><a class="link title  link-installationwindows" href="../installation/windows.html">Windows</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="body page-introinstall">
+        <div class="header-nav">
+          <div class="right"><a class="iconlink" href="https://github.com/dwatow/javascript-primer" data-title="dwatow/javascript-primer">
+              <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="docpress">&#x6539;&#x88DD; docpress</h1>
+<h2 id="markdown-it">&#x64F4;&#x5145; markdown-it &#x7684;&#x6E32;&#x67D3;&#x5916;&#x639B;&#x5B89;&#x88DD;&#x65B9;&#x5F0F;</h2>
+<p><strong>/Users/chris/case/javascript-primer/node_modules/docpress-core/lib/helpers/markdown.js</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="pl-k">function</span> <span class="pl-ent">loadPlugins</span> (<span class="hljs-params">md, plugins, cwd</span>) </span>{
+  md = plugins.reduce(<span class="hljs-function">(<span class="hljs-params">md, plug</span>) =&gt;</span> {
+    <span class="pl-k">if</span> (plug <span class="pl-k">instanceof</span> <span class="pl-c1">Object</span> &amp;&amp; plug.name) {
+      <span class="pl-k">return</span> md.use(<span class="pl-c1">require</span>(plugPath(plug.name)), plug.options);
+    }
+    <span class="pl-k">return</span> md.use(<span class="pl-c1">require</span>(plugPath(plug)));
+  }, md);
+}
+
+<span class="hljs-function"><span class="pl-k">function</span> <span class="pl-ent">plugPath</span> (<span class="hljs-params">plugName</span>) </span>{
+  <span class="pl-k">const</span> pluginPath = tryRequire(<span class="pl-s">`markdown-it-<span class="hljs-subst">${plugName}</span>`</span>) ||
+    (cwd &amp;&amp; tryRequire(<span class="pl-s">`<span class="hljs-subst">${cwd}</span>/node_modules/markdown-it-<span class="hljs-subst">${plugName}</span>`</span>))
+  <span class="pl-k">if</span> (!pluginPath) <span class="pl-k">throw</span> <span class="pl-k">new</span> <span class="pl-c1">Error</span>(<span class="pl-s">`Can&apos;t find module &apos;markdown-it-<span class="hljs-subst">${plugName}</span>&apos;`</span>)
+  <span class="pl-k">return</span> pluginPath;
+}
+</code></pre>
+<p>&#x5B89;&#x5FC3;&#x7684;&#x5B89;&#x88DD;&#x9019;&#x4E9B;&#x3002;</p>
+<pre><code class="lang-shell">npm install -D markdown-it-abbr
+npm install -D markdown-it-checkbox
+npm install -D markdown-it-container
+npm install -D markdown-it-deflist
+npm install -D markdown-it-emoji
+npm install -D markdown-it-footnote
+npm install -D markdown-it-imsize
+npm install -D markdown-it-ins
+npm install -D markdown-it-mark
+npm install -D markdown-it-regexp
+npm install -D markdown-it-sub
+npm install -D markdown-it-sup
+</code></pre>
+<p>&#x4E26;&#x4E14;&#x5728; docpress.json &#x6A94;&#x6848;&#x52A0;&#x4E0A;&#x53C3;&#x6578;&#x8A2D;&#x5B9A;</p>
+<pre><code class="lang-json">{
+  <span class="pl-c">// ...,</span>
+  <span class="hljs-attr">&quot;markdown&quot;</span>: {
+    <span class="hljs-attr">&quot;plugins&quot;</span>: [
+      <span class="pl-s">&quot;abbr&quot;</span>,
+      <span class="pl-s">&quot;deflist&quot;</span>,
+      <span class="pl-s">&quot;footnote&quot;</span>,
+      <span class="pl-s">&quot;imsize&quot;</span>,
+      <span class="pl-s">&quot;ins&quot;</span>,
+      <span class="pl-s">&quot;mark&quot;</span>,
+      <span class="pl-s">&quot;regexp&quot;</span>,
+      <span class="pl-s">&quot;sub&quot;</span>,
+      <span class="pl-s">&quot;sup&quot;</span>,
+      <span class="pl-s">&quot;checkbox&quot;</span>,
+      {
+        <span class="hljs-attr">&quot;name&quot;</span>: <span class="pl-s">&quot;container&quot;</span>,
+        <span class="hljs-attr">&quot;options&quot;</span>: <span class="pl-s">&quot;success&quot;</span>
+      },
+      {
+        <span class="hljs-attr">&quot;name&quot;</span>: <span class="pl-s">&quot;container&quot;</span>,
+        <span class="hljs-attr">&quot;options&quot;</span>: <span class="pl-s">&quot;info&quot;</span>
+      },
+      {
+        <span class="hljs-attr">&quot;name&quot;</span>: <span class="pl-s">&quot;container&quot;</span>,
+        <span class="hljs-attr">&quot;options&quot;</span>: <span class="pl-s">&quot;warning&quot;</span>
+      },
+      {
+        <span class="hljs-attr">&quot;name&quot;</span>: <span class="pl-s">&quot;container&quot;</span>,
+        <span class="hljs-attr">&quot;options&quot;</span>: <span class="pl-s">&quot;danger&quot;</span>
+      },
+      {
+        <span class="hljs-attr">&quot;name&quot;</span>: <span class="pl-s">&quot;emoji&quot;</span>,
+        <span class="hljs-attr">&quot;options&quot;</span>: {
+          <span class="hljs-attr">&quot;shortcuts&quot;</span>: {}
+        }
+      }
+    ]
+  }
+}
+</code></pre>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../intro/getting-started.html"><span class="title">Getting started</span></a></div>
+          <div class="right"><a href="../installation/index.html"><span class="label">Next: </span><span class="title">Installation</span></a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
