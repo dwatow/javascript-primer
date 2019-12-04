@@ -47,15 +47,6 @@ npm install -D markdown-it-sup
   "markdown": {
     "plugins": [
       "abbr",
-      "deflist",
-      "footnote",
-      "imsize",
-      "ins",
-      "mark",
-      "regexp",
-      "sub",
-      "sup",
-      "checkbox",
       {
         "name": "container",
         "options": "success"
@@ -77,7 +68,28 @@ npm install -D markdown-it-sup
         "options": {
           "shortcuts": {}
         }
-      }
+      },
+      {
+        "name": "anchor",
+        "options": {
+          "level": 1,
+          "permalink": false,
+          "permalinkClass": "header-anchor",
+          "permalinkSymbol": "¶",
+          "permalinkBefore": false
+        }
+      },
+      "deflist",
+      "footnote",
+      "imsize",
+      "ins",
+      "mark",
+      "regexp",
+      "sub",
+      "sup",
+      "checkbox",
+      "katex",
+      "video"
     ]
   }
 }

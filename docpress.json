@@ -1,7 +1,16 @@
 {
+  "name": "JavaScript Primer",
   "docs": "docs",
   "github": "dwatow/javascript-primer",
   "lang": "zh-tw",
+  "css": [
+    "docs/css/hackmd.css",
+    "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"
+  ],
+  "scripts": [
+    "js/prism/line-number.js"
+  ],
   "markdown": {
     "plugins": [
       "abbr",
@@ -27,6 +36,16 @@
           "shortcuts": {}
         }
       },
+      {
+        "name": "anchor",
+        "options": {
+          "level": 1,
+          "permalink": false,
+          "permalinkClass": "header-anchor",
+          "permalinkSymbol": "¶",
+          "permalinkBefore": false
+        }
+      },
       "deflist",
       "footnote",
       "imsize",
@@ -35,7 +54,9 @@
       "regexp",
       "sub",
       "sup",
-      "checkbox"
+      "checkbox",
+      "katex",
+      "video"
     ]
   }
 }

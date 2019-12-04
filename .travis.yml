@@ -3,7 +3,7 @@ node_js:
 
 env:
   global:
-    - GIT_NAME: dwatow
+    - GIT_NAME: chris
     - GIT_EMAIL: dwatow@gmail.com
     - GITHUB_REPO:  dwatow/javascript-primer
     - GIT_SOURCE: _docpress

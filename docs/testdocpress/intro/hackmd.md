@@ -126,11 +126,15 @@ alert(s);
 
 ## 外部
 
-### Youtube
-{%youtube 1G4isv_Fylg %}
+### Youtube[^markdown-it-video]
 
-### Vimeo
-{%vimeo 124148255 %}
+@[youtube](1G4isv_Fylg)
+
+### Vimeo[^markdown-it-video]
+
+@[vimeo](124148255)
+
+[^markdown-it-video]: [markdown-it-video](https://www.npmjs.com/package/markdown-it-video)
 
 ### Gist
 {%gist schacon/4277%}

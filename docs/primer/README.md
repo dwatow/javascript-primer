@@ -1,0 +1,140 @@
+
+- 起步走
+  - 寫一個簡單的 C++ 程式
+  - 初窺輸入與輸出
+  - 關於註釋
+  - 關於結構
+    - while 述句
+    - for 述句
+    - if 述句
+    - 讀取數個未知的輸入值
+  - 導入 Class
+  - C++ 程式
+
+- 第一篇 基本要素
+  - 變數和基本型別
+    - 基本內建型別
+    - 字面常數
+    - 變數
+    - const 飾詞
+    - Reference
+    - typedef 的名稱
+    - 列舉 (Enumerations)
+    - Class 型別
+    - 寫出自已的表頭檔
+  - 程式庫型別
+    - Namespace 的 using 宣告式
+    - 程式庫型別之一 string
+    - 程式庫型別之二 vector
+    - 簡介 Iterators
+    - 程式庫型別之三 bitset
+  - 陣列和指標
+    - Arrays
+    - 導入 Pointers (指標)
+      - 什麼是 Pointer
+      - 定義和初始化 Pointers
+      - 操作 Pointers
+      - 使用 Pointers 存取 Array 的元素
+    - C-Style 字元字串
+    - 多維 Array
+  - 算式/表達式
+    - 算術運算子
+    - 關係 (Relational) 和邏輯 (Logical) 運算子
+    - 逐位 (Bitwise) 運算子
+      - 使用 bitset 物件或整數型數值 (Interal Values)
+      - 使用 shift 運算子於 IO
+    - 賦值運算子 (Assignment)
+    - 遞增 (Increment) 和遞減 (Decrement) 運算子
+    - 箭頭 (Arrow) 運算子
+    - 條件運算子 (Conditional) 運算子
+    - sizeof 運算子
+    - 逗號 (Comma) 運算子
+    - 對複合算子求值
+    - 算式 `new` 和 `delete`
+    - 型別轉換 (Type Conversions)
+      - 當隱性型別轉換發生 (Implict Type Conversions)
+      - 算術轉換 (Atithmetic Conversions)
+      - 其它隱式轉換 (Implicit Conversions)
+      - 顯示轉換 (Explicit Conversions)
+      - 強制轉型 (Cast) 何時有用
+      - 具名強制轉型 (Named Cast)
+      - 舊式轉型 (Old-Style Cast)
+  - 述句/語句
+    - 簡述句 (Simple Statements)
+    - 宣告句 (Declatation Statements)
+    - 複述句 (Compound Statements; Blocks)
+    - 述句作用域 (Statement Scope)
+    - if 述句
+      - if 述句的 else 分支
+    - switch 述句
+      - 使用一個 switch
+      - switch 內部的控制流程
+      - default 標籤
+      - switch 算式和 case 標籤
+      - 在 switch 內定義變數
+    - while 述句
+    - for 述句
+      - 省略一部份的 for 表頭
+      - for 表頭內的多份定義式
+    - do while 述句
+    - break 述句
+    - contiune 述句
+    - goto 述句
+    - try 區段和異常處理 (Exception Handling)
+      - throw 算式
+      - try 區段
+      - 標準異常 (Standard Exceptions)
+    - 使用預處理器 (Preprocessor) 協助除錯
+  - 函式
+    - 定義一個函式
+      - 函式的返回值型別 (Return Type)
+      - 函式的參數列 (Function Parameter List)
+    - 引數傳遞 (Argument Passing)
+    - retur 述句
+      - 函式不帶返回值 (Functions with No Return Value)
+      - 函式帶有返回值 (Functions with Return Value)
+      - 遞迴 (Recursion)
+    - 函式宣告 (Function Declarations)
+      - 預設引數 (Default Arguments)
+    - 區域性 (Local) 物件
+      - 自動化刪除 (Automatic) 物件
+      - 靜態區域 (Static Local) 物件
+    - inline 函式
+    - Class 成員函式 (Member Functions)
+      - 定義成員函式 (Member Function) 的主體
+      - 在 class 主體外定義成員函式
+      - 寫出 Sales_item 建構式
+      - 將 Class 程式檔加以組識
+    - 重載函式 (Overloaded Functions)
+      - 重載與作用域
+      - 函式配對
+      - 重載決議三步驟
+      - 引數型別轉換
+    - 函式指標 (Pointer to Functions)
+  - IO 程式庫
+    - 這是個物件導向程式庫 (An Object-Oriented Library)
+    - 型勢狀態 (Condition States)
+    - 管理輸出緩衝區 (Output Buffer)
+    - 檔案的輸出輸入 (File Input and Output)
+    - 字串流 (String Stream)
+
+- 第二篇容器和演算法
+  - 循序式容器
+  - 關聯式容器
+  - 泛型演算法
+
+- 第三篇 類別和資料抽象
+  - 類別
+  - 拷貝控制項
+  - 重載運算和轉換
+
+- 第四篇 物件導向和泛型編程
+  - 物件導向編程
+  - 模版和泛型編程
+
+- 高階主題
+  - 大型程式的開發工具
+  - 特殊工具和技術
+
+- 附錄
+  - 標準程式庫
