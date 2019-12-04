@@ -2,276 +2,283 @@
   "toc": {
     "sections": [
       {
-        "title": "Your project",
+        "title": "JavaScript Primer",
         "source": "README.md",
         "url": "index.html",
         "slug": "index"
       },
       {
-        "title": "Introduction",
-        "source": "docs/intro/README.md",
-        "url": "intro/index.html",
-        "slug": "intro",
+        "title": "測試頁面",
+        "source": "README.md",
+        "url": "index.html",
+        "slug": "index-2",
         "sections": [
           {
-            "title": "Getting started",
-            "source": "docs/intro/getting-started.md",
-            "url": "intro/getting-started.html",
-            "slug": "introgetting-started",
-            "headings": [
+            "title": "Introduction",
+            "source": "docs/testdocpress/intro/README.md",
+            "url": "testdocpress/intro/index.html",
+            "slug": "testdocpressintro",
+            "sections": [
               {
-                "title": "快速鍵",
-                "depth": 2,
-                "id": ""
-              },
-              {
-                "title": "自動完成",
-                "depth": 2,
-                "id": ""
-              },
-              {
-                "title": "標題",
-                "depth": 2,
-                "id": ""
-              },
-              {
-                "title": "標籤",
-                "depth": 2,
-                "id": ""
-              },
-              {
-                "title": "ToC:",
-                "depth": 2,
-                "id": "toc:"
-              },
-              {
-                "title": "表情符號",
-                "depth": 2,
-                "id": ""
-              },
-              {
-                "title": "待辦清單",
-                "depth": 2,
-                "id": ""
-              },
-              {
-                "title": "程式碼區塊",
-                "depth": 2,
-                "id": ""
-              },
-              {
-                "title": "引用區塊標籤",
-                "depth": 2,
-                "id": ""
-              },
-              {
-                "title": "外部",
-                "depth": 2,
-                "id": "",
+                "title": "markdoen-it plugin 安裝",
+                "source": "docs/testdocpress/intro/markdoen-it-plugin.md",
+                "url": "testdocpress/intro/markdoen-it-plugin.html",
+                "slug": "testdocpressintromarkdoen-it-plugin",
                 "headings": [
                   {
-                    "title": "Youtube",
-                    "depth": 3,
-                    "id": "youtube"
-                  },
-                  {
-                    "title": "Vimeo",
-                    "depth": 3,
-                    "id": "vimeo"
-                  },
-                  {
-                    "title": "Gist",
-                    "depth": 3,
-                    "id": "gist"
-                  },
-                  {
-                    "title": "SlideShare",
-                    "depth": 3,
-                    "id": "slideshare"
-                  },
-                  {
-                    "title": "Speakerdeck",
-                    "depth": 3,
-                    "id": "speakerdeck"
-                  },
-                  {
-                    "title": "PDF",
-                    "depth": 3,
-                    "id": "pdf"
+                    "title": "擴充 markdown-it 的渲染外掛安裝方式",
+                    "depth": 2,
+                    "id": "markdown-it"
                   }
                 ]
               },
               {
-                "title": "MathJax",
-                "depth": 2,
-                "id": "mathjax"
-              },
-              {
-                "title": "UML 圖表",
-                "depth": 2,
-                "id": "uml",
+                "title": "HackMD 語法測試",
+                "source": "docs/testdocpress/intro/hackmd.md",
+                "url": "testdocpress/intro/hackmd.html",
+                "slug": "testdocpressintrohackmd",
                 "headings": [
                   {
-                    "title": "循序圖",
-                    "depth": 3,
+                    "title": "快速鍵",
+                    "depth": 2,
                     "id": ""
                   },
                   {
-                    "title": "流程圖",
-                    "depth": 3,
+                    "title": "自動完成",
+                    "depth": 2,
                     "id": ""
                   },
                   {
-                    "title": "Graphviz",
-                    "depth": 3,
-                    "id": "graphviz"
+                    "title": "標題",
+                    "depth": 2,
+                    "id": ""
                   },
                   {
-                    "title": "Mermaid",
-                    "depth": 3,
-                    "id": "mermaid"
+                    "title": "標籤",
+                    "depth": 2,
+                    "id": ""
                   },
                   {
-                    "title": "Abc",
-                    "depth": 3,
-                    "id": "abc"
+                    "title": "ToC:",
+                    "depth": 2,
+                    "id": "toc:"
+                  },
+                  {
+                    "title": "表情符號",
+                    "depth": 2,
+                    "id": ""
+                  },
+                  {
+                    "title": "待辦清單",
+                    "depth": 2,
+                    "id": ""
+                  },
+                  {
+                    "title": "程式碼區塊",
+                    "depth": 2,
+                    "id": ""
+                  },
+                  {
+                    "title": "引用區塊標籤",
+                    "depth": 2,
+                    "id": ""
+                  },
+                  {
+                    "title": "外部",
+                    "depth": 2,
+                    "id": "",
+                    "headings": [
+                      {
+                        "title": "Youtube[^markdown-it-video]",
+                        "depth": 3,
+                        "id": "youtubemarkdown-it-video"
+                      },
+                      {
+                        "title": "Vimeo[^markdown-it-video]",
+                        "depth": 3,
+                        "id": "vimeomarkdown-it-video"
+                      },
+                      {
+                        "title": "Gist",
+                        "depth": 3,
+                        "id": "gist"
+                      },
+                      {
+                        "title": "SlideShare",
+                        "depth": 3,
+                        "id": "slideshare"
+                      },
+                      {
+                        "title": "Speakerdeck",
+                        "depth": 3,
+                        "id": "speakerdeck"
+                      },
+                      {
+                        "title": "PDF",
+                        "depth": 3,
+                        "id": "pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "MathJax",
+                    "depth": 2,
+                    "id": "mathjax"
+                  },
+                  {
+                    "title": "UML 圖表",
+                    "depth": 2,
+                    "id": "uml",
+                    "headings": [
+                      {
+                        "title": "循序圖",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "流程圖",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "Graphviz",
+                        "depth": 3,
+                        "id": "graphviz"
+                      },
+                      {
+                        "title": "Mermaid",
+                        "depth": 3,
+                        "id": "mermaid"
+                      },
+                      {
+                        "title": "Abc",
+                        "depth": 3,
+                        "id": "abc"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "警告區塊",
+                    "depth": 2,
+                    "id": ""
+                  },
+                  {
+                    "title": "排版",
+                    "depth": 2,
+                    "id": "",
+                    "headings": [
+                      {
+                        "title": "標頭",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "水平分隔線",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "字形替換",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "強調",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "引用區塊",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "清單",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "程式碼",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "表格",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "連結",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "圖片",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "註腳",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "定義清單",
+                        "depth": 3,
+                        "id": ""
+                      },
+                      {
+                        "title": "縮寫",
+                        "depth": 3,
+                        "id": ""
+                      }
+                    ]
                   }
                 ]
-              },
-              {
-                "title": "警告區塊",
-                "depth": 2,
-                "id": ""
-              },
-              {
-                "title": "排版",
-                "depth": 2,
-                "id": "",
-                "headings": [
-                  {
-                    "title": "標頭",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "水平分隔線",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "字形替換",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "強調",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "引用區塊",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "清單",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "程式碼",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "表格",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "連結",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "圖片",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "註腳",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "定義清單",
-                    "depth": 3,
-                    "id": ""
-                  },
-                  {
-                    "title": "縮寫",
-                    "depth": 3,
-                    "id": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Installation",
-            "source": "docs/intro/install.md",
-            "url": "intro/install.html",
-            "slug": "introinstall",
-            "headings": [
-              {
-                "title": "擴充 markdown-it 的渲染外掛安裝方式",
-                "depth": 2,
-                "id": "markdown-it"
               }
             ]
           }
         ]
       },
       {
-        "title": "Installation",
-        "source": "docs/installation/README.md",
-        "url": "installation/index.html",
-        "slug": "installation",
-        "sections": [
-          {
-            "title": "Mac OS X",
-            "source": "docs/installation/osx.md",
-            "url": "installation/osx.html",
-            "slug": "installationosx"
-          },
-          {
-            "title": "Windows",
-            "source": "docs/installation/windows.md",
-            "url": "installation/windows.html",
-            "slug": "installationwindows"
-          }
-        ]
+        "title": "C++ Primer 4/e 目錄",
+        "source": "docs/primer/README.md",
+        "url": "primer/index.html",
+        "slug": "primer"
       }
     ]
   },
   "index": {
     "index.html": {
       "source": "README.md",
-      "title": "Your project",
-      "pageTitle": "Your project",
-      "slug": "index"
+      "title": "測試頁面 - JavaScript Primer",
+      "pageTitle": "測試頁面",
+      "slug": "index-2"
     },
-    "intro/index.html": {
-      "source": "docs/intro/README.md",
-      "title": "Introduction - Your project",
+    "testdocpress/intro/index.html": {
+      "source": "docs/testdocpress/intro/README.md",
+      "title": "Introduction - JavaScript Primer",
       "pageTitle": "Introduction",
-      "slug": "intro"
+      "slug": "testdocpressintro"
     },
-    "intro/getting-started.html": {
-      "source": "docs/intro/getting-started.md",
-      "title": "Getting started - Your project",
-      "pageTitle": "Getting started",
-      "slug": "introgetting-started",
+    "testdocpress/intro/markdoen-it-plugin.html": {
+      "source": "docs/testdocpress/intro/markdoen-it-plugin.md",
+      "title": "markdoen-it plugin 安裝 - JavaScript Primer",
+      "pageTitle": "markdoen-it plugin 安裝",
+      "slug": "testdocpressintromarkdoen-it-plugin",
+      "headings": [
+        {
+          "title": "擴充 markdown-it 的渲染外掛安裝方式",
+          "depth": 2,
+          "id": "markdown-it"
+        }
+      ]
+    },
+    "testdocpress/intro/hackmd.html": {
+      "source": "docs/testdocpress/intro/hackmd.md",
+      "title": "HackMD 語法測試 - JavaScript Primer",
+      "pageTitle": "HackMD 語法測試",
+      "slug": "testdocpressintrohackmd",
       "headings": [
         {
           "title": "快速鍵",
@@ -324,14 +331,14 @@
           "id": "",
           "headings": [
             {
-              "title": "Youtube",
+              "title": "Youtube[^markdown-it-video]",
               "depth": 3,
-              "id": "youtube"
+              "id": "youtubemarkdown-it-video"
             },
             {
-              "title": "Vimeo",
+              "title": "Vimeo[^markdown-it-video]",
               "depth": 3,
-              "id": "vimeo"
+              "id": "vimeomarkdown-it-video"
             },
             {
               "title": "Gist",
@@ -471,45 +478,20 @@
         }
       ]
     },
-    "intro/install.html": {
-      "source": "docs/intro/install.md",
-      "title": "Installation - Your project",
-      "pageTitle": "Installation",
-      "slug": "introinstall",
-      "headings": [
-        {
-          "title": "擴充 markdown-it 的渲染外掛安裝方式",
-          "depth": 2,
-          "id": "markdown-it"
-        }
-      ]
-    },
-    "installation/index.html": {
-      "source": "docs/installation/README.md",
-      "title": "Installation - Your project",
-      "pageTitle": "Installation",
-      "slug": "installation"
-    },
-    "installation/osx.html": {
-      "source": "docs/installation/osx.md",
-      "title": "Mac OS X - Your project",
-      "pageTitle": "Mac OS X",
-      "slug": "installationosx"
-    },
-    "installation/windows.html": {
-      "source": "docs/installation/windows.md",
-      "title": "Windows - Your project",
-      "pageTitle": "Windows",
-      "slug": "installationwindows"
+    "primer/index.html": {
+      "source": "docs/primer/README.md",
+      "title": "C++ Primer 4/e 目錄 - JavaScript Primer",
+      "pageTitle": "C++ Primer 4/e 目錄",
+      "slug": "primer"
     }
   },
   "sources": {
     "README.md": "index.html",
-    "docs/intro/README.md": "intro/index.html",
-    "docs/intro/getting-started.md": "intro/getting-started.html",
-    "docs/intro/install.md": "intro/install.html",
-    "docs/installation/README.md": "installation/index.html",
-    "docs/installation/osx.md": "installation/osx.html",
-    "docs/installation/windows.md": "installation/windows.html"
+    "docs/testdocpress/intro/README.md": "testdocpress/intro/index.html",
+    "docs/testdocpress/intro/markdoen-it-plugin.md": "testdocpress/intro/markdoen-it-plugin.html",
+    "docs/testdocpress/intro/hackmd.md": "testdocpress/intro/hackmd.html",
+    "docs/primer/README.md": "primer/index.html",
+    "docs/css/hackmd.css": "css/hackmd.css",
+    "docs/js/prism/line-number.js": "js/prism/line-number.js"
   }
 }
